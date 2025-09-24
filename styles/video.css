@@ -1,0 +1,94 @@
+      .thumbnail{
+        width: 100%;
+        cursor: pointer;   
+      }
+
+      
+
+      .vid-title{
+        margin-top: 0;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 10px;
+        cursor: pointer;
+
+      }
+      
+      .vid-info-grid{
+        display:grid;
+        grid-template-columns: 50px 1fr;
+      }
+      
+      .profile-pic{
+        width:36px;
+        border-radius: 50px;
+        cursor: pointer;
+      }
+      .thumbnail-row{
+        margin-bottom: 8px;
+        position: relative;
+        
+      }
+      .vid-auth, 
+      .vid-stats {
+        font-size:12px;
+        color: rgb(96, 96, 96);
+
+      }
+      .vid-auth{
+        margin-bottom: 4px;
+        cursor: pointer;
+      }
+      
+      .vid-grid{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        column-gap: 15px;
+        row-gap: 40px;
+      }
+
+      @media (max-width: 750px){
+         .vid-grid{
+          grid-template-columns: 1fr 1fr;
+         }
+      }
+
+      @media (min-width:751px) and (max-width:999px){
+        .vid-grid{
+          grid-template-columns: 1 fr 1fr 1fr;
+        }
+      }
+
+      @media (min-width: 1000px){
+        .vid-grid{
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+      }
+
+      
+
+      .video-time{
+      
+        font-size: 12px;
+        font-weight: 500;
+        border-radius: 2px;
+        padding: 4px;
+        background-color: black;
+        color: white;
+        position: absolute;
+        bottom: 10px;
+        right: 5px;
+        cursor: pointer;
+      }
+
+      .vid-links{
+        color: black;
+        text-decoration: none;
+        
+      }
+      .vid-links-creator{
+        color: rgb(96, 96, 96);
+        text-decoration: none;
+      }
